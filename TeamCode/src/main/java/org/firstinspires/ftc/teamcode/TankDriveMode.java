@@ -9,7 +9,7 @@ import com.qualcomm.robotcore.hardware.DcMotor;
  * Control using gamepad 1, left stick controls left motor and right controls right.
  */
 @TeleOp
-public class FreeDriveMode extends LinearOpMode {
+public class TankDriveMode extends LinearOpMode {
 
     //Declare drive to be of type DriveBase
     private DriveBase drive;
