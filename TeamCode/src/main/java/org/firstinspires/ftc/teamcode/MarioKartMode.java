@@ -56,7 +56,7 @@ public class MarioKartMode extends LinearOpMode {
                 leftPower = power * (gamepad1.left_stick_x + 0.5) * 2;
             }
             if(gamepad1.left_stick_x > 0 && (goingForward || goingBackward)){
-                rightPower = power * (gamepad1.left_stick_x - 0.5) * 2;
+                rightPower = power * (gamepad1.left_stick_x - 0.5) * -2;
             }
 
             drive.set(leftPower, rightPower);
