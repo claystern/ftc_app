@@ -20,7 +20,7 @@ public class DriveBase {
         right = map.get(DcMotor.class, "rightMotor");
         //Reverse motors. Comment out if not necessary.
         left.setDirection(DcMotor.Direction.REVERSE);
-        right.setDirection(DcMotor.Direction.REVERSE);
+        //right.setDirection(DcMotor.Direction.REVERSE);
     }
     /** Set the power of the left motor. */
     public void setLeft(double power){
