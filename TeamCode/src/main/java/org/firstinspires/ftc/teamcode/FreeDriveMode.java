@@ -4,10 +4,7 @@ import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
 /**
- * Vaguely-mario kart style driving mode
- * If the left trigger is pressed, the amount to which it is pressed is how backwards it's going
- * If the right trigger is pressed, the amount to which it is pressed is how forwards it's going
- * Left joystick: if left/right, change the appropriate motor to make that happen.
+ * Linear Op Mode that uses the MarioKart-style driving mode (See MarioKartMode) and arm control.
  */
 @TeleOp
 public class FreeDriveMode extends LinearOpMode {
